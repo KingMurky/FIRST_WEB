@@ -14,7 +14,7 @@ h2 {
 }
 
 body {
-  font-family:'배달의민족 한나체 air', sans-serif;
+  font-family:'Noto Sans KR', sans-serif;
   background-color: antiquewhite;
   font-size: 20px;
   margin:30px;
@@ -38,7 +38,8 @@ body {
 .button {
   width:100px;
   text-align:center;
-  font-family: '배달의민족 도현', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
   border-radius: 10px 10px 10px 10px;
   background-color:white;
   color:black;
@@ -47,7 +48,7 @@ body {
 .container {
   display:grid;
   grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 30px 96px 63.8px 50px 30px 1fr 1fr;
+  grid-template-rows: 30px 96px 63.8px 50px 30px 1fr 1fr 100px;
 
 }
 .item {

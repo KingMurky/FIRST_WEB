@@ -48,8 +48,12 @@
     grid-row-start: 4;
     grid-row-end: 5;
     border-bottom: 2px solid gray;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
   }
-
+  .intro p {
+    font-family: '나눔바른펜';
+    padding-top:15px;
+  }
   .header_deco {
     display: grid;
     grid-template-columns: 5px 1fr 5px;
