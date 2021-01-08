@@ -1,0 +1,81 @@
+a{
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 45px;
+  font-family:'배달의민족 도현', sans-serif;
+  text-align:center;
+  margin:0;
+  padding:20px;
+}
+h2 {
+  font-family:'배달의민족 도현', sans-serif;
+}
+
+body {
+  font-family:'Noto Sans KR', sans-serif;
+  background-color: antiquewhite;
+  font-size: 20px;
+  margin:30px;
+  margin-top:5px;
+}
+.navi ul li {
+  list-style-type: none;
+  float:left;
+  text-align: center;
+}
+.navi a {
+  width:270px;
+  display:block;
+  font-weight: bold;
+  height: 50px;
+}
+.navi a:hover {
+  color:saddlebrown;
+}
+
+.button {
+  width:100px;
+  text-align:center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  background-color:white;
+  color:black;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 30px 96px 63.8px 50px 30px 1fr 1fr 100px;
+
+}
+.item {
+  padding-left:50px;
+}
+
+
+@media(max-width:1312px){
+  .container {
+    display: block;
+  }
+  ol {
+    border-right: none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+
+  .item_2 {
+    display: none;
+  }
+  .navi {
+    display: none;
+  }
+  .item_1 {
+    border-left: none;
+    border-right: none;
+  }
+}
+
